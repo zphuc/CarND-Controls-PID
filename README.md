@@ -12,10 +12,10 @@ Self-Driving Car Engineer Nanodegree Program
   * I implemented the **PID algorithm** in file main.cpp for the steering angle (**pid_st**, line 36) and the throttle (**pid_th**, line 37) of car.  
 
   * There are 2 modes in the code  
-    * Tune-mode: Running the track with an target speed (30km/h, 40km/h, 50km/h, 60km/h) using the finally appropriate hyperparameters (P, I, D coefficients). Below example shows the setting for 40km/h.  
+    * Tune-mode (see *tune.sh*): Running the track with an target speed (30km/h, 40km/h, 50km/h, 60km/h) using the finally appropriate hyperparameters (P, I, D coefficients). Below example shows the setting for 40km/h.  
           #./pid 40
 
-    * Run-mode: Tunning the P, I, D coefficients of the steering angle and throttle using the twiddle method (need files of initial parameters: ***tune_steer.dat*** and ***tune_throt.dat***).
+    * Run-mode (see *run.sh*): Tunning the P, I, D coefficients of the steering angle and throttle using the twiddle method (need files of initial parameters: ***tune_steer.dat*** and ***tune_throt.dat***).  
           #./pid 0          
 
 ## Rubric Discussion
