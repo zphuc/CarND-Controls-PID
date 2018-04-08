@@ -1,6 +1,7 @@
 #!/bin/bash
 
 {
-cd build
+cd run
+ln -sf ../build/pid .
 ./pid 60
 }
